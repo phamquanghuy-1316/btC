@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Trang-1" id="sYpC3GW4FDoGks3TVxBB">
-    <mxGraphModel dx="934" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1323" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,6 +46,11 @@
         <mxCell id="sr7JXReN1LeWzbRut3cX-9" value="x1=x2=-b/2a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="770" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="sr7JXReN1LeWzbRut3cX-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sr7JXReN1LeWzbRut3cX-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sr7JXReN1LeWzbRut3cX-10" value="phương trình có 1 nghiệm kép x1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="690" y="770" width="110" height="60" as="geometry" />
         </mxCell>
@@ -54,6 +59,9 @@
         </mxCell>
         <mxCell id="sr7JXReN1LeWzbRut3cX-13" value="x1,x2=-b+\-sqrt(delta)/2a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sr7JXReN1LeWzbRut3cX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sr7JXReN1LeWzbRut3cX-14" target="sr7JXReN1LeWzbRut3cX-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sr7JXReN1LeWzbRut3cX-14" value="phương trình có 2 nghiệm x1,x2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="690" y="930" width="120" height="60" as="geometry" />
@@ -98,6 +106,15 @@
           <mxGeometry x="590" y="480" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sr7JXReN1LeWzbRut3cX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sr7JXReN1LeWzbRut3cX-22" target="sr7JXReN1LeWzbRut3cX-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sr7JXReN1LeWzbRut3cX-35" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="900" y="680" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sr7JXReN1LeWzbRut3cX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sr7JXReN1LeWzbRut3cX-33" target="sr7JXReN1LeWzbRut3cX-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sr7JXReN1LeWzbRut3cX-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sr7JXReN1LeWzbRut3cX-7" target="sr7JXReN1LeWzbRut3cX-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
