@@ -8,11 +8,18 @@ int main (){
 		printf("so nhap vao khong hop le");
 	} else {
 		printf("so nghich dao la ");
-		while(a>0){
 		s=a%10;
 		a/=10;
 		printf("%d",s);
-	}
+		s=a%10;
+		a/=10;
+		printf("%d",s);
+		s=a%10;
+		a/=10;
+		printf("%d",s);
+		s=a%10;
+		a/=10;
+		printf("%d",s);
 	}
 	return 0; 
 }
